@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: provider-impl
+  registry:
+    address: nacos://127.0.0.1:8848
+  protocol:
+    port: 20880
+
+server:
+  port: 8070
+
